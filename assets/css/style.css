@@ -1,0 +1,68 @@
+/* Write your CSS! */
+
+html, body, #map {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+  font-family: "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0;
+}
+
+header {
+	border-bottom: 2px solid #531;
+	top: 0;
+}
+
+footer {
+	border-top: 2px solid #531;
+	bottom: 0;
+}
+
+#options {
+  width: 100%;
+  position: fixed;
+  height: 30px;
+  background-color: black;
+  bottom: 0;
+  color: white;
+}
+
+#options div {
+  float: left;
+  width: 25%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 8px;
+}
+
+dl {
+  width: 220px;
+  float: right;
+}
+
+.popover {
+  width: 350px;
+}
+
+.popover img {
+  border: 1px solid black;
+  float: left;
+  margin: 10px 10px 10px 0;
+}

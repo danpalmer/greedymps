@@ -1,0 +1,15 @@
+{
+  "name": "greedymps",
+  "version": "0.0.0",
+  "description": "Greedy MPs for Rewired State 2012",
+  "main": "app.js",
+  "dependencies": {
+    "express": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@heroku.com:greedymps.git"
+  },
+  "author": "Honking the Databus",
+  "license": "MIT"
+}
